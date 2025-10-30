@@ -1,4 +1,5 @@
 
+
 let loginPageDiv = document.querySelector('#login')
 let backToLoginBtn=document.querySelector('#loginButton')
 let registPageButton=document.querySelector('#registrationButton')
