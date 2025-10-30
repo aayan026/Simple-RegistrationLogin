@@ -2,10 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="app.js"></script>
+<div class="Page" id="login">
+        <p id="login">Login page</p>
+<div class="input-container">
+  <input id="email" placeholder="Email">
+  <span class="validation" id="emailValidation"></span>
+</div>
+
+<div class="input-container">
+  <input id="password" placeholder="Password" >
+  <span class="validation" id="passwordValidation"></span>
+</div>
+    <span>Don't you have an account?</span>  
+    <button id="registrationButton">Sign Up</button>
+    <div>
+            <button id="Login">Log In</button>
+
+    </div>
+</div>
+
+<div class="Page" id="registration">
+    <p id="registration">Registration page</p>
+
+ <div class="input-container">
+  <input id="FirstName" placeholder="FirstName">
+  <span class="validation" id="NameValidation"></span>
+</div>
+<div class="input-container">
+  <input id="LastName" placeholder="LastName">
+  <span class="validation" id="SurnameValidation"></span>
+</div>
+
+
+ <div class="input-container">
+  <input id="registerEmail" placeholder="Email">
+  <span class="validation" id="EmailValidation"></span>
+</div>
+<div class="input-container">
+  <input id="registerPassword" placeholder="Password">
+  <span class="validation" id="PasswordValidation"></span>
+</div>
+   <div class="input-container">
+  <select id="Gender" name="Gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select>
+</div>
+<div>
+    <button id="loginButton">Back to Login</button>
+    <button id="Register">Register</button>
+    </div>
+</div>    
+
+<script src="app.js"></script>
 </body>
 </html>
