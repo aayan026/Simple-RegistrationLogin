@@ -67,22 +67,21 @@ login.addEventListener('click', function() {
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-let validName=false;
-let validSurname=false;
+
 let validRegisterEmail=false;
 let validRegisterPassword=false;
 
-firstName.addEventListener('input', function (ev) {
-  let value = ev.target.value.trim();
-  validName = value !== "";
-  showValidation(NameValidation, validName);
-});
+// firstName.addEventListener('input', function (ev) {
+//   let value = ev.target.value.trim();
+//   validName = value !== "";
+//   showValidation(NameValidation, validName);
+// });
 
-lastName.addEventListener('input', function (ev) {
-  let value = ev.target.value.trim();
-  validSurname = value !== "";
-  showValidation(SurnameValidation, validSurname);
-});
+// lastName.addEventListener('input', function (ev) {
+//   let value = ev.target.value.trim();
+//   validSurname = value !== "";
+//   showValidation(SurnameValidation, validSurname);
+// });
 
 registEmail.addEventListener('input', function (ev) {
   validRegisterEmail = emailUnicodeRe.test(ev.target.value);
@@ -96,7 +95,7 @@ registPassword.addEventListener('input', function (ev) {
 
 let registerBtn=document.querySelector('#Register')
 registerBtn.addEventListener  ('click',function (ev){
-  if(validName && validSurname && validRegisterEmail && validRegisterPassword){
+  if( validRegisterEmail && validRegisterPassword){
     alert("You have successfully registered")
   } else{
     alert("Please enter all information correctly")
