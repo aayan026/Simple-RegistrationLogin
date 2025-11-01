@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 body {
     font-family: Arial;
     display: flex;
@@ -22,11 +23,45 @@ body {
   .input-container{
       display: flex;
       align-items: center; 
+=======
+
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #be9980;
+  }
+  
+  .Page{
+      background-color: #f1ede4;
+      width: 370px;
+      height: 350px;
+      box-shadow: 0 0 60px rgba(0,0,0,0.2);
+      padding: 80px ;
+      padding-top: 25px;
+      padding-bottom: 100px;
+      align-items: center;
+      border-radius: 20px;
+             align-items: flex-start;
+
+  }
+  #login input{
+    margin-left: 25px;
+  }
+  .input-container{
+    display: flex;
+    align-items: center; 
+     width: 380px;
+
+>>>>>>> 7713daa (commit)
   }
   .input-container .validation{
       font-style: italic;
       margin-left: 15px;
   }
+<<<<<<< HEAD
   #registrationButton{
     background-color: #f1ede4;
     font-size: 17px;
@@ -43,10 +78,33 @@ body {
   }
   p{
   font-style:italic;
+=======
+  #registrationButton,#loginButton{
+    background-color: #f1ede4;
+    font-size: 17px;
+    padding-right: 70px; 
+    font-style: italic;
+    border: none; 
+    outline: none;
+    padding-bottom: 35px;
+  }
+  .section{
+    margin-left: 30px;
+    align-items: center;
+    gap: 5px; 
+  }
+
+  #label{
+    margin-left: 20px;
+  }
+
+  p{
+>>>>>>> 7713daa (commit)
   font-weight: bolder;
   margin-top: 20px;
   margin-bottom: 3px;
   font-size: xx-large;
+<<<<<<< HEAD
   }
   input{
     display: block;
@@ -68,3 +126,104 @@ body {
   
   }
   
+  margin-left: 130px;
+  }
+  input
+  {
+    display: block;
+    width: 300px;
+    flex-shrink: 0;
+    margin: 10px 0;
+    padding: 8px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    height: 38px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+
+#fullname{
+  width: 150px;
+    display: flex;
+  gap: 45px;
+}
+  button{
+      background-color: #be9980;
+      margin-top: 5px;
+      width: 150px;
+      height: 50px;
+      padding: 10px; 
+      font-size:medium;
+      font-style: italic;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+  }
+  #Login{
+    width: 300px;
+    margin-left: 25px;
+    font-weight: 100;
+    box-shadow: 0 0 10px rgba(34, 29, 29, 0.2);
+      font-style: italic;
+    box-shadow: 0 0 10px rgba(34, 29, 29, 0.2);
+        color: white;
+  }
+
+  #registrationp{
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  #Gender{
+    margin-left: 21px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+  }
+
+  #Register{
+    width: 300px;
+    margin-left: 25px;
+    font-weight: 100;
+    font-style: italic;
+    box-shadow: 0 0 10px rgba(34, 29, 29, 0.2);
+    color: white;
+    margin-top: 30px;
+
+  }
+#registration input,
+#registration select {
+  width: 200px;
+  margin-left: -46px;
+}
+#registration {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  
+}
+
+#Register:hover {
+  background-color: #a67b5b;
+}
+#Login:hover{
+    background-color: #a67b5b;
+
+}
+select  {
+  width: 419px !important;
+  margin-top: 10px;
+  height: 50px !important;
+}
+  #registerEmail ,#registerPassword{
+  width: 400px !important; 
+  }
+  #loginButton{
+
+  }
+
+>>>>>>> 7713daa (commit)
